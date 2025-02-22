@@ -71,11 +71,11 @@
             margin-bottom: 20px;
         }
         .service-item {
-            display: inline-block;
-            width: 200px;
+            display: block; /* Changed to block so they display vertically */
+            width: 80%; /* Made the width a bit smaller for better readability */
+            margin: 20px auto; /* Added margin to separate items vertically */
             padding: 20px;
             background-color: #ffffff;
-            margin: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -144,12 +144,24 @@
             <p>Design and optimize data systems to support business needs.</p>
         </div>
         <div class="service-item">
+            <h3>ETL Processes</h3>
+            <p>Automating Extract, Transform, and Load (ETL) processes to streamline data preparation, ensuring clean, reliable data for analysis and decision-making.</p>
+        </div>
+        <div class="service-item">
+            <h3>Cloud Data Architecture</h3>
+            <p>Design and implement scalable cloud-based data architectures using platforms like AWS and Google Cloud to store, manage, and process large datasets.</p>
+        </div>
+        <div class="service-item">
             <h3>Data Integration</h3>
-            <p>Integrate data from multiple sources to ensure data consistency.</p>
+            <p>Integrating disparate data sources into a unified system, ensuring seamless data flow and accessibility across platforms and tools.</p>
         </div>
         <div class="service-item">
             <h3>Data Pipelines</h3>
             <p>Develop and manage robust data pipelines for efficient data processing.</p>
+        </div>
+        <div class="service-item">
+            <h3>Data Warehousing</h3>
+            <p>Build and optimize data warehouses to centralize data for reporting, analytics, and business intelligence, making data accessible and actionable.</p>
         </div>
     </section>
 
